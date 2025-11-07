@@ -2,11 +2,11 @@ pipeline{
     agent any
 
     environment{
-        REPO_URL= "https://github.com/nikhila1511ch/task-2.git"
-        REPO_DIR='task-2'
+        REPO_URL= "https://github.com/nikhila1511ch/k82-day2.git"
+        REPO_DIR='k82-day2'
         BRANCH_NAME='main'
-        DOCKER_REPO="nikhila1511/task-2"
-        REPO_NAME='task-2'
+        DOCKER_REPO="nikhila1511/k82-day2"
+        REPO_NAME='k82-day2'
         DOCKER_USERNAME='nikhila1511'
         DOCKER_PASSWORD='Nikhila@1511'
         IMAGE_NAME ='ubuntu'
